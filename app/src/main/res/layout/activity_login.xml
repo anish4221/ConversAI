@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/register">
+
+    <!-- UI Content (Email, Password, Button) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/registerImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/login11"
+            android:contentDescription="Register Now" />
+
+        <EditText
+            android:id="@+id/loginEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/loginbutton"
+            android:hint="Email"
+            android:textColorHint="@color/loginbutton"
+            android:layout_marginBottom="20dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/loginPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/loginbutton"
+            android:hint="Password"
+            android:textColorHint="@color/loginbutton"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/loginbutton"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+    <!-- Lottie Animation Overlay -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/successAnimation2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/success_animation"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="false"
+
+        android:alpha="0.9"/>
+</FrameLayout>

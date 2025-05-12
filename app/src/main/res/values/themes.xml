@@ -3,7 +3,12 @@
     <style name="Base.Theme.Geminicalc" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowSplashScreenBackground">@color/splash</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="android:windowSplashScreenAnimationDuration">3000</item>
+
     </style>
 
     <style name="Theme.Geminicalc" parent="Base.Theme.Geminicalc" />
+
 </resources>

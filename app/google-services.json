@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "653962741591",
+    "project_id": "geminicalc-5fd54",
+    "storage_bucket": "geminicalc-5fd54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653962741591:android:36b2c0e2f6bb801a0c6012",
+        "android_client_info": {
+          "package_name": "com.example.geminicalc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDROj6LPV5DOP4WO2CRmNgl-kQiys4tLdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
